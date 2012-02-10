@@ -1,0 +1,19 @@
+A shell script that uses Team Cymru's (http://www.team-cymru.org/) bulk whois service.  The input file should be a list of IP addresses, one per line.
+
+Usage:
+
+$ ./bulk-whois.sh infile
+
+Example:
+
+$ ./bulk-whois.sh infile
+$ more infile
+Bulk mode; whois.cymru.com [2012-01-08 13:59:44 +0000]
+8048    | 200.84.77.12     | VE | CANTV Servicios, Venezuela
+9070    | 84.21.222.91     | BG | ITD ITD Network Bulgarian ISP
+9121    | 78.189.61.194    | TR | TTNET Turk Telekomunikasyon Anonim Sirketi
+8737    | 86.89.38.108     | NL | PT KPN Internet Solutions
+16232   | 2.198.11.17      | IT | ASN-TIM TIM (Telecom Italia Mobile) Autonomous System
+7738    | 201.79.227.111   | BR | Telecomunicacoes da Bahia S.A.
+17676   | 126.117.42.10    | JP | GIGAINFRA Softbank BB Corp.
+26599   | 189.96.231.205   | BR | Telesp Celular S.A.
