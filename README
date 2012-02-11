@@ -1,4 +1,4 @@
-A shell script that uses Team Cymru's (http://www.team-cymru.org/) bulk whois service.  The input file should be a list of IP addresses, one per line.
+A shell script that uses Team Cymru's (http://www.team-cymru.org/) bulk whois service.  The input file should be a list of IP addresses, one per line.  The whois query results will be in a newly created file - infile.whois.
 
 Usage:
 
@@ -7,7 +7,7 @@ $ ./bulk-whois.sh infile
 Example:
 
 $ ./bulk-whois.sh infile
-$ more infile
+$ more infile.whois
 Bulk mode; whois.cymru.com [2012-01-08 13:59:44 +0000]
 8048    | 200.84.77.12     | VE | CANTV Servicios, Venezuela
 9070    | 84.21.222.91     | BG | ITD ITD Network Bulgarian ISP
