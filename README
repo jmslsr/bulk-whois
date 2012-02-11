@@ -1,5 +1,9 @@
 A shell script that uses Team Cymru's (http://www.team-cymru.org/) bulk whois service.  The input file should be a list of IP addresses, one per line.  The whois query results will be in a newly created file - infile.whois.
 
+Dependencies:
+
+netcat (http://netcat.sourceforge.net/)
+
 Usage:
 
 $ ./bulk-whois.sh infile
