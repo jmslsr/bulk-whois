@@ -4,7 +4,8 @@
 if [ $# -ne 1 ] ; then
  echo ""
  echo 'Usage: bulk-whois.sh <input file>'
- echo 'Example: bulk-whois.sh ip.l	ist'
+ echo 'Example: bulk-whois.sh infile'
+ echo 'Output will be in infile.whois'
  echo ""
  exit
 fi
